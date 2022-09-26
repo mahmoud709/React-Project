@@ -1,0 +1,33 @@
+@media (max-width:669px){
+    .container{
+        max-width: 550px;
+    }
+    .contact-page textarea,.contact-page button{
+        width: 290px;
+    }
+    .home-page{
+        background-size:100% 80%;
+    }
+    .Text-info{
+        padding-top: 25%;
+    }
+}
+@media (max-width:450px){
+.container{
+    max-width: 380px;
+}
+.home-page{
+    background-size:100% 70%;
+}
+.Text-info{
+    padding-top: 50%;
+}
+/* blog page */
+.input-contain input{
+    width: 250px;
+}
+.input-field{
+    display: flex;
+}
+
+}

@@ -1,0 +1,14 @@
+.type{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.type span{
+    cursor: pointer;
+}
+.type :not(:first-child){
+    opacity: .5;
+}
+.type :not(:first-child):hover{
+    opacity: 1;
+}

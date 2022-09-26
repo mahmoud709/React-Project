@@ -1,0 +1,33 @@
+.revew-images{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+.card-1 img{
+    padding: 15px 0px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.card-1{
+    height: 500px;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    text-align: center;
+}
+.card-1 p{
+    margin: 8px 0px;
+    color: #1bd3c4;
+}
+.card-1 article{
+    padding: 18px;
+    letter-spacing: 1.5px;
+}
+.card-1 .btns i{
+    color: #1bd3c4;
+    cursor: pointer;
+    font-size: 25px;
+    margin: 12px;
+}

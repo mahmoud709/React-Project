@@ -1,0 +1,29 @@
+/* blog page */
+.blog-page{
+    background-color: #eee;
+    padding: 3% 0px;
+    margin: 10% 0px;
+}
+.blog-page p{
+    max-width: 330px;
+    margin: 0 auto;
+    text-align: center;
+}
+.input-contain input{
+    width: 350px;
+    height: inherit;
+}
+.input-field{
+    height: 50px;
+    text-align: center;
+    margin: 25px 0px;
+}
+.input-contain button{
+    height: inherit;
+    font-size: 18px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}

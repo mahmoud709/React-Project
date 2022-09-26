@@ -1,0 +1,19 @@
+.contact-page{
+    text-align: center;
+    margin: 25px auto;
+}
+.contact-page input{
+    width: 290px;
+    margin: 12px;
+}
+.contact-page textarea{
+    padding: 12px;
+    resize: none;
+    width: 600px;
+    height: 140px;
+}
+.contact-page button{
+    width: 600px;
+    letter-spacing: 2px;
+    padding: 6px;
+}

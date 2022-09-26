@@ -1,0 +1,42 @@
+.footer{
+    background-color: #eee;
+    padding: 3% 0px;
+}
+.footer h3{
+    padding: 12px 0px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+    gap: 25px;
+}
+.col-1 .col-info p{
+    letter-spacing: 1.4px;
+    line-height: 1.8;
+}
+.col-1 .social-icons{
+    margin: 15px 0px;
+}
+.col-1 .social-icons i{
+    cursor: pointer;
+    margin-right: 12px;
+    font-size: 20px;
+    border: 2px solid #171717;
+    padding: 5px;
+}
+.col-1 .social-icons :first-child{
+    background-color: #171717;
+    color: var(--main-color);
+}
+.col-1 .social-icons i:hover{
+    background-color: #171717;
+    color: var(--main-color);
+}
+footer .col-2 li,footer .col-3 li,.col-4 li{
+    color: rgb(79, 77, 77);
+    cursor: pointer;
+    margin: 15px 0px;
+}
+footer .col-2 li:hover,footer .col-3 li:hover ,.col-4 li:hover{
+    padding-left: 8px;
+}
